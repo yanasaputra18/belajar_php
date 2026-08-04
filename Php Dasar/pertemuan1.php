@@ -1,8 +1,16 @@
 <?php
-echo "Nama saya yana";
+echo "===============================";
 echo "\n";
-echo "Saya sedang belajar php";
+echo "BIODATA";
 echo "\n";
-echo "Target saya adalah laracel";
-
+echo "===============================";
+echo "\n";
+    echo "Nama : Yana";
+    echo "\n";
+    echo "Umur : 22 tahun";
+    echo "\n";
+    echo "Program Studi : Teknik Informatika";
+    echo "\n";
+    echo "===============================";
+    echo "\n";
 ?>

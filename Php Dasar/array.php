@@ -28,5 +28,4 @@ $warna[1] = "kuning";
 
 echo $warna[0] . "\n";
 echo $warna[1] . "\n";
-echo $warna[2] . "\n"; 
-    
+echo $warna[2] . "\n";

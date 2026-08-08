@@ -29,3 +29,46 @@ $warna[1] = "kuning";
 echo $warna[0] . "\n";
 echo $warna[1] . "\n";
 echo $warna[2] . "\n";
+
+// latihan 4 belajar array assosiatif
+
+$mobil = [
+    "merek" => "Toyota",
+    "model" => "Avanza",
+    "tahun" => 2022,
+    "warna" => "Merah"
+];
+
+echo "Mobil : " . $mobil["merek"] . "\n";
+echo "Model : " . $mobil["model"] . "\n";
+echo "Tahun : " . $mobil["tahun"] . "\n";
+echo "Warna : " . $mobil["warna"] . "\n";
+
+// latihan 5 array buat data produk
+
+$produk = [
+    "nama" => "Buku Tulis",
+    "harga" => 5000,
+    "jumlah" => 10
+];
+$produk["jumlah"] = 20;
+
+echo "Produk : " . $produk["nama"] . "\n";
+echo "Harga : " . $produk["harga"] . "\n";
+echo "Jumlah : " . $produk["jumlah"] . "\n";
+
+
+// latihan 6 array asosiatif yang di gabung dengan foreach
+$mahasiswa = [
+    "nama" => "Yana",
+    "umur" => 20,
+    "jurusan" => "Teknik Informatika"
+];
+foreach ($mahasiswa as $key => $value) {
+    echo $key . " : " . $value . "\n";
+}
+
+
+
+
+?>

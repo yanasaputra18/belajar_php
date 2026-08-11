@@ -542,3 +542,25 @@ if (str_ends_with($text, "menyenangkan")) {
     echo "menyenangkan tidak ditemukan\n";
 }
 // output : Belajar Laravel itu menyenangkan (karena mengandung karakter menyenangkan)
+
+
+// belajar string 61
+$text = "Belajar PHP";
+$hasil = str_replace("PHP", "Laravel", $text);
+echo $text . "\n";
+echo $hasil . "\n";
+// output : Belajar PHP
+// output : Belajar Laravel (karena mengandung karakter PHP dan menggantinya)
+
+
+// "Saya punya string, saya ingin mengecek apakah mengandung kata tertentu, lalu kalau ada saya ingin menggantinya."
+// menggunakan str_contains dan str_replace
+
+$text = "Saya belajar Laravel";
+if (str_contains($text, "Laravel")) {
+    $hasil = str_replace("Laravel", "PHP", $text);
+    echo $hasil . "\n";
+} else {
+    echo "Laravel tidak ditemukan\n";
+}
+// output : Saya belajar PHP
